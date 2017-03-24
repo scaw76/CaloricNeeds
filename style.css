@@ -1,0 +1,66 @@
+/*website styles*/
+
+
+
+.container{
+	padding: 20px;
+	display: inline-block;
+	border: 2px solid #B00707;
+	box-shadow: 5px 5px 2px #888888;
+	margin-left: 50px;
+	max-width: 550px;
+}
+.error{
+	color: #C90E21;
+}
+.metric{
+	margin-bottom: 15px;
+	margin-left: 110px;
+}
+.metric input{
+	margin-right: 10px;
+}
+.metric label{
+	margin-right: 5px;
+}
+/* calculator class */
+.calculator label {
+  float: left;
+  display: block;
+  text-align: right;
+  width: 100px;
+  margin-right: 15px;
+  margin-left: 10%;
+  
+}
+.calculator input, select {
+	display: block;
+	margin-bottom: 15px;
+	margin-left: 15px;	
+}
+.calculator input{
+	width: 40%;
+}
+.calculator select{
+	width: 41%;
+}
+.calculator button{
+	margin-left: 170px;
+}
+table{
+	border-collapse: collapse;
+	margin: 20px 0 20px 0;
+	font-size: 90%;
+}
+td{
+	text-align: center;
+}
+td, th {
+	padding: 3px;
+	border-bottom: 1px solid #ddd;
+}
+tr td:first-child{
+	background: #CFCCCC;
+	font-weight: bold;
+	color: #B00707
+}
